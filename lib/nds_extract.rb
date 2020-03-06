@@ -12,29 +12,29 @@ require 'pp'
 #    end
 #   result
 # end
-# 
+#
 # def gross_for_director(d)
 #    total = 0
 #    index = 0
-# 
+#
 #   while index < d[:movies].length do
 #     total += d[:movies][index][:worldwide_gross]
 #      index += 1
 #    end
-# 
+#
 #   total
 #  end
-# 
+#
 #  def list_of_directors(source)
 # #   #Write this implementation
 #   counter = 0
 #   list_of_directors = []
-# 
-# 
+#
+#
 #   while counter < source.length do
 #    director_names = source[counter][:name]
 #     list_of_directors << director_names
-# 
+#
 #     counter += 1
 #   end
 #  list_of_directors
@@ -48,9 +48,9 @@ pp source
 #     while counter < source.length do
 #       gross = source[:name][counter][:worldwide_gross]
 #       result += gross
-# 
+#
 #       counter += 1
-# 
+#
 #     end
 # result
 # end
