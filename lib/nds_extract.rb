@@ -52,7 +52,7 @@ def total_gross(source)
       counter += 1
   
 end
-
+result
 end
 
 # Write this implementation
