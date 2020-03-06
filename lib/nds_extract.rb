@@ -45,7 +45,7 @@ def total_gross(source)
 #     result = {}
 #     counter = 0
 #     while counter < source.length do
-#       gross = source[:name][counter][:worldwide_gross]
+#       gross = source[:name][:movies][counter][:worldwide_gross]
 #       result += gross
 #
 #       counter += 1
