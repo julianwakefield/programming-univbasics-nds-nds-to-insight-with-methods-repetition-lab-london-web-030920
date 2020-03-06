@@ -51,9 +51,7 @@ def total_gross(source)
 
       counter += 1
   
-
-
-
+end
 
 end
 
