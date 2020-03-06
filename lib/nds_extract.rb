@@ -50,7 +50,7 @@ def total_gross(source)
       result += gross
 
       counter += 1
-  
+
 end
 result
 end
