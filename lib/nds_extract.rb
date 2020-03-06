@@ -43,33 +43,20 @@ def gross_for_director(d)
 end
 
 def total_gross(source)
-    result = {}
+#    result = {}
     counter = 0
-
-
-    list_of_directors = []
-
-
     while counter < source.length do
      director_name = source[counter][:name]
-      list_of_directors << director_name
       puts director_name
       counter += 1
     end
-    list_of_directors
 
-  i = 0
-
-    while i < source.length do
-      gross = source[:name][:movies][i][:worldwide_gross]
-      result += gross
-
-      counter += 1
-
-    end
-result
-binding.pry
-# pp source
+#    i = 0
+#    while i < source.length do
+#      gross = source[:name][:movies][i][:worldwide_gross]
+#      result += gross
+#      counter += 1
+#    end
 end
 
 # Write this implementation
