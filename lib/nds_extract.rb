@@ -44,7 +44,7 @@ end
 #
 def total_gross(source)
   result = {}
-  
+
   director_index = 0
   while director_index < source.size do
     director = source[director_index]
