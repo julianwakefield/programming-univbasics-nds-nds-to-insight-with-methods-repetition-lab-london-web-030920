@@ -2,58 +2,58 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 require 'pp'
 
-# def directors_totals(source)
-#   result = {}
-#     director_index = 0
-#    while director_index < source.size do
-#       director = source[director_index]
-#     result[director[:name]] = gross_for_director(director)
-#     director_index += 1
-#    end
-#   result
-# end
-#
-# def gross_for_director(d)
-#    total = 0
-#    index = 0
-#
-#   while index < d[:movies].length do
-#     total += d[:movies][index][:worldwide_gross]
-#      index += 1
-#    end
-#
-#   total
-#  end
-#
-#  def list_of_directors(source)
-# #   #Write this implementation
-#   counter = 0
-#   list_of_directors = []
-#
-#
-#   while counter < source.length do
-#    director_names = source[counter][:name]
-#     list_of_directors << director_names
-#
-#     counter += 1
-#   end
-#  list_of_directors
+def directors_totals(source)
+  result = {}
+    director_index = 0
+   while director_index < source.size do
+      director = source[director_index]
+    result[director[:name]] = gross_for_director(director)
+    director_index += 1
+   end
+  result
+end
 
-# end
-#
+def gross_for_director(d)
+   total = 0
+   index = 0
+
+  while index < d[:movies].length do
+    total += d[:movies][index][:worldwide_gross]
+     index += 1
+   end
+
+  total
+ end
+
+ def list_of_directors(source)
+#   #Write this implementation
+  counter = 0
+  list_of_directors = []
+
+
+  while counter < source.length do
+   director_names = source[counter][:name]
+    list_of_directors << director_names
+
+    counter += 1
+  end
+ list_of_directors
+
+end
+
 def total_gross(source)
-#     result = {}
-#     counter = 0
-#     while counter < source.length do
-#       gross = source[:name][:movies][counter][:worldwide_gross]
-#       result += gross
-#
-#       counter += 1
-#
-#     end
-# result
+    result = {}
+    counter = 0
+    while counter < source.length do
+      gross = source[:name][:movies][counter][:worldwide_gross]
+      result += gross
 
-pp source
+      counter += 1
+
+    end
+result
+
+# pp source
 end
 
 # Write this implementation
