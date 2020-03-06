@@ -43,14 +43,17 @@ def gross_for_director(d)
 end
 #
 def total_gross(source)
+  result = {}
+  
+  director_index = 0
+  while director_index < source.size do
+    director = source[director_index]
+    puts director
 
-counter = 0
-
-while counter < source.length do
-  director_name = source[counter][:name]
-
-  counter += 1
-end
+#    result[director[:name]] = gross_for_director(director)
+    director_index += 1
+   end
+  result
 
 
 end
