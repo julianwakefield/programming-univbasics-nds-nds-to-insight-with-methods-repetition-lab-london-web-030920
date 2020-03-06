@@ -49,7 +49,7 @@ def total_gross(source)
        film = source[counter][:movies]
        i = 0
        while i < film.length do
-         result += film[i][:worldwide_gross] 
+         result += film[i][:worldwide_gross]
          i += 1
        end
        counter += 1
