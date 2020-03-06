@@ -45,7 +45,7 @@ def total_gross(source)
     result = {}
     counter = 0
 
-  
+
     list_of_directors = []
 
 
