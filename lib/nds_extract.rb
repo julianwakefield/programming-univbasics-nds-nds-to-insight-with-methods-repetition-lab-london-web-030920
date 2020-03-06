@@ -13,33 +13,33 @@ require 'pry'
 #    end
 #   result
 # end
-# 
+#
 # def gross_for_director(d)
 #    total = 0
 #    index = 0
-# 
+#
 #   while index < d[:movies].length do
 #     total += d[:movies][index][:worldwide_gross]
 #      index += 1
 #    end
-# 
+#
 #   total
 #  end
-# 
+#
 #  def list_of_directors(source)
 # #   #Write this implementation
 #   counter = 0
 #   list_of_directors = []
-# 
-# 
+#
+#
 #   while counter < source.length do
 #    director_names = source[counter][:name]
 #     list_of_directors << director_names
-# 
+#
 #     counter += 1
 #   end
 #  list_of_directors
-# 
+#
 # end
 
 def total_gross(source)
