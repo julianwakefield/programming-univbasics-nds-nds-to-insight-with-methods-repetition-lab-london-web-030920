@@ -50,9 +50,9 @@ def total_gross(source)
 
 
     while counter < source.length do
-     director_names = source[counter][:name]
-      list_of_directors << director_names
-
+     director_name = source[counter][:name]
+      list_of_directors << director_name
+      puts director_name
       counter += 1
     end
     list_of_directors
