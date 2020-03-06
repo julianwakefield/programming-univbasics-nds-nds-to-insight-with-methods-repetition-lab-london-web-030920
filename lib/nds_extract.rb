@@ -44,11 +44,11 @@ end
 #
 def total_gross(source)
 
-counter = 0 
+counter = 0
 
 while counter < source.length do
   director_name = source[counter][:name]
-  
+
   counter += 1
 end
 
