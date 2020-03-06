@@ -39,10 +39,9 @@ require 'pp'
 #   end
 #  list_of_directors
 
-pp source
 # end
 #
-# def total_gross(source)
+def total_gross(source)
 #     result = {}
 #     counter = 0
 #     while counter < source.length do
@@ -53,7 +52,9 @@ pp source
 #
 #     end
 # result
-# end
+
+pp source
+end
 
 # Write this implementation
 #
