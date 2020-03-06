@@ -58,7 +58,7 @@ def total_gross(source)
 #      counter += 1
 #    end
 
-pp source
+
 end
 
 # Write this implementation
